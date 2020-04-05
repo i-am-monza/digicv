@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 // import main styles
 import './App.css';
 // import components to app
-import { Label } from './components/labels/labelVariety1.js';
+import { Button } from './components/buttons/buttonVariety1.js';
 
 export class App extends Component {
   render() {
     return (
       <div className="app row">
         <section className="work col-7">
-          <Label
-            text="trying out label"
+          <Button
+            text="trying out button"
             fontSize="20px"
             fontColour="white"
             background="orange"
