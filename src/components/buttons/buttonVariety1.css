@@ -8,6 +8,11 @@
 
 }
 
+#button-var-1:active {
+    position:relative;
+    top:1px;
+}
+
 /* these classes represent switchers, for adding style settings */
 .buttonBoxshadowBlack {
     padding: 1%;
@@ -51,4 +56,66 @@
     border-radius: 5%;
     text-decoration: underline;
     font-size: 500px !important;
+}
+
+.button-circular-height {
+    border-radius:18px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding:7px 25px;
+    text-decoration:none;
+}
+
+.button-circular-plain {
+    border-radius:42px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+}
+
+.button-rounded-height {
+    border-radius:5px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding:12px 44px;
+    text-decoration:none;
+}
+
+.button-rounded-plain {
+    border-radius:17px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:10px 27px;
+    text-decoration:none;
+}
+
+.button-rectangle-height {
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding:12px 44px;
+    text-decoration:none;
+}
+
+.button-rectangle-plain {
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
 }
