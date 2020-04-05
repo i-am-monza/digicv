@@ -13,8 +13,13 @@ export class App extends Component {
             text="trying out button"
             fontSize="20px"
             fontColour="white"
-            background="orange"
-            switch=".headerBoxshadowBlack"
+            background="blue"
+            top_background="blue"
+            bottom_background="turquoise"
+            boxShadow="black"
+            borderColour="blue"
+            textShadow="black"
+            switch='button-circular-height'
           />
         </section>
         <section className="education col">
