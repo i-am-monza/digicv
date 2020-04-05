@@ -1,0 +1,54 @@
+#label-var-1 {
+    /* default styles for all library elements. DO NOT CHANGE. */
+    margin: 0;
+    text-align: center;
+    width: auto;
+    height: auto;
+    /* can add suggestions below */
+
+}
+
+/* these classes represent switchers, for adding style settings */
+.labelBoxshadowBlack {
+    padding: 1%;
+    border: 0.1em solid black;
+    box-shadow: 0 0 5em 5em black;
+}
+
+.labelBoxshadowWhite {
+    padding: 1%;
+    border: 0.1em solid white;
+    box-shadow: 0 0 5em 5em white;
+}
+
+.labelBoxshadowBlackRound {
+    padding: 1%;
+    border: 0.1em solid black;
+    box-shadow: 0 0 5em 5em black;
+    border-radius: 5%;
+}
+
+.labelBoxshadowWhiteRound {
+    padding: 1%;
+    border: 0.1em solid white;
+    box-shadow: 0 0 5em 5em white;
+    border-radius: 5%;
+}
+
+.labelBoxshadowBlackRoundBottom {
+    padding: 1%;
+    border: solid black;
+    border-width: 0 0 0 0.1em;
+    box-shadow: 0 0 5em 5em black;
+    border-radius: 5%;
+}
+
+.labelBoxshadowWhiteRoundButtom {
+    padding: 1%;
+    border: solid white;
+    border-width: 0 0 0 0.1em;
+    box-shadow: 0 0 5em 5em white;
+    border-radius: 5%;
+    text-decoration: underline;
+    font-size: 500px !important;
+}
